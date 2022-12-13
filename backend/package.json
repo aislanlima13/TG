@@ -1,0 +1,33 @@
+{
+  "name": "backend-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aislanlima13/backend-tg.git"
+  },
+  "author": "Aislan Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aislanlima13/backend-tg/issues"
+  },
+  "homepage": "https://github.com/aislanlima13/backend-tg#readme",
+  "dependencies": {
+    "celebrate": "^13.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.6",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.13",
+    "mysql2": "^2.2.5",
+    "pg": "^8.4.1",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
